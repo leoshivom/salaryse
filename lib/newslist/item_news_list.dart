@@ -40,7 +40,6 @@ class ItemNews extends StatelessWidget {
                 ),
                 Text(
                   _news.body,
-                  // "${widget.logsData.astrologer.name}?",
                   style: TextStyle(
                       fontSize: 14, color: AppColors.black.withOpacity(0.9)),
                 ),

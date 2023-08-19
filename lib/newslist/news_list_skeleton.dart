@@ -16,7 +16,6 @@ class NewsListSkeleton extends StatelessWidget {
           itemCount: 12,
           padding: const EdgeInsets.all(0.0),
           reverse: false,
-          //To keep the latest messages at the bottom
           itemBuilder: (_, int index) {
             return GridTile(
               child: Container(

@@ -15,10 +15,9 @@ class MyCard extends StatelessWidget {
           boxShadow: [
             BoxShadow(
               color: Colors.grey.withOpacity(0.3),
-              // color: Theme.of(context).scaffoldBackgroundColor,
               spreadRadius: 0.5,
               blurRadius: 2,
-              offset: const Offset(0.2, 0.2), // changes position of shadow
+              offset: const Offset(0.2, 0.2),
             ),
           ]),
       child: Card(

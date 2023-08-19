@@ -52,7 +52,6 @@ class _NewsDetailsPageState extends State<NewsDetailsPage> {
                     ),
                     Text(
                       news.body,
-                      // "${widget.logsData.astrologer.name}?",
                       style: TextStyle(
                           fontSize: 14,
                           color: AppColors.black.withOpacity(0.9)),

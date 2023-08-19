@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:salaryseassignment/provider/news_list_provider.dart';
+import 'package:salaryseassignment/newslist/news_list_provider.dart';
 import 'package:salaryseassignment/utils/error_widget.dart';
 
 import '../network/response_state.dart';
